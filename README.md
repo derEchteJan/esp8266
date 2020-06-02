@@ -1,15 +1,9 @@
 ## esp8266
-esp8266 development on Raspbian
+esp8266 development in Arduino
 
 ### Setup Guide
-Anleitung entnommen von diesem [YouTube Guide](https://www.youtube.com/watch?v=T-oSjMCmNYk)
-
-#### Schritt 1 - minicom installieren
-
-Minicom ist ein Tool das die USB zu UART Schnittstelle des Boards auslesen kann
-
-Installieren mit:
-
-`sudo apt-get install minicom`
-
-
+* Arduino installieren
+* Link einfügen unter "Datei -> Voreinstellungen -> Boardmanager URLs"
+  * https://arduino.esp8266.com/stable/package_esp8266com_index.json
+* Unter "Werkzeuge -> Board -> Boardmanager" nach "esp" suchen und installieren
+* Das Board unter "Werkzeuge -> Board" auswählen
